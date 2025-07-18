@@ -312,7 +312,7 @@ with st.form("client_discovery_form"):
         }
 
         client = AsyncOpenAI(
-            api_key=os.getenv("GEMINI_API_KEY"),
+            api_key="AIzaSyDFOyYXqDtxb9218m7o2OKJQC--jtFEFdk",
             base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
         )
         agent = Agent(
