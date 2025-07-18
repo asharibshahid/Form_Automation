@@ -52,7 +52,7 @@ class FullClientData(BaseModel):
 
 
 
-gemini_api_key = os.getenv("GEMINI_API_KEY")
+gemini_api_key ="AIzaSyDFOyYXqDtxb9218m7o2OKJQC--jtFEFdk"
 
 #Reference: https://ai.google.dev/gemini-api/docs/openai
 client = AsyncOpenAI(
